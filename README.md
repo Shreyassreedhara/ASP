@@ -22,3 +22,7 @@ Course outline
 14. Testing a USB keyboard driver
 15. USB Block drivers
 16. Analyzing device drivers for deadlocks and race conditions
+
+Author Information
+
+Shreyas Gaadikere Sreedhara, Email - shreyasgaadikere@ufl.edu
