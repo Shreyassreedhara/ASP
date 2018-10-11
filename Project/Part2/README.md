@@ -1,4 +1,4 @@
-# USB Keyboard Driver
+# USB legacy Keyboard Driver
 The Linux USB Keyboard Driver is modified to change the way the CAPSLOCK LED is turned ON.
 
 Here the functionalities of the CapsLock and NumLock has been changed.
