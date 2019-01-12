@@ -1,4 +1,4 @@
-# Producer Combiner with concurrency using Mutex
+# Producer Consumer with concurrency using Mutex
 
 In computing, the producer-consumer problem (also known as the bounded-buffer problem) is a classic example of a multi-process synchronization problem. The problem describes two processes, the producer and the consumer, who share a common, fixed-size buffer used as a queue. 
 
