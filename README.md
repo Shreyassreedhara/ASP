@@ -1,7 +1,5 @@
 # Advanced System Programming
 
-## Course Description
-
 Develop a deep understanding of operating system concepts and systems programming fundementals and gain hands-on experience in systems programming by using Pthreads as well as implementing Linux device drivers and testing/verifying systems code for deadlock and race-freedom
 
 ## Course outline
@@ -22,6 +20,13 @@ Develop a deep understanding of operating system concepts and systems programmin
 14. Testing a USB keyboard driver
 15. USB Block drivers
 16. Analyzing device drivers for deadlocks and race conditions
+
+## Contents
+
+1. [Producer consumer problem with no concurreny](Assignment1)
+2. [Producer consumer with concurreny using Mutex](Assignment2)
+3. [Producer consumer with concurreny using Semaphores](Assignment3)
+4. [Producer consumer with concurreny using mmap](Assignment4)
 
 ## Author Information
 
