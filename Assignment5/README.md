@@ -1,6 +1,6 @@
-# Assignment 5
+# Character device Driver
 
-This program tests a user app that uses the character device driver that I have written. Following are the instructions on how you can run this program on your system.
+## Steps to run the project
 
 1. Clone the repository into your local machine
 2. Traverse to the Assignment5 folder
