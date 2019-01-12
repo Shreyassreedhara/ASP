@@ -24,6 +24,6 @@ gcc -pthread -o combiner combiner.c
 ./combiner 10 8 <input.txt
 ```
 
-# Author information
+## Author information
 
 1. Shreyas Gaadikere Sreedhara, Email - shreyas100994@gmail.com
