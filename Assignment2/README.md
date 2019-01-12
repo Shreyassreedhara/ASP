@@ -1,4 +1,10 @@
-# Assignment 2
+# Producer Combiner with concurrency using Mutex
+
+## Description
+
+
+
+## Steps to run the project
 
 You must be on a linux system to run the following commands. Follow the steps below to run the program
 
@@ -17,3 +23,7 @@ If for some reason the above commands do not work as expected, run the program u
 gcc -pthread -o combiner combiner.c
 ./combiner 10 8 <input.txt
 ```
+
+# Author information
+
+1. Shreyas Gaadikere Sreedhara, Email - shreyas100994@gmail.com
