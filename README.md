@@ -27,6 +27,7 @@ Develop a deep understanding of operating system concepts and systems programmin
 2. [Producer consumer with concurreny using Mutex](Assignment2)
 3. [Producer consumer with concurreny using Semaphores](Assignment3)
 4. [Producer consumer with concurreny using mmap](Assignment4)
+5. [Character device driver](Assignment5)
 
 ## Author Information
 
