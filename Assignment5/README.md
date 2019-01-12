@@ -34,5 +34,5 @@ insmod char_driver.ko <num_devices>
 ```
 rmmod char_driver.ko
 ```
-# Note:
+_Note:_
 * Userapp has to be executed with root previleges as the device files in /dev/ are created in the driver with root previleges
