@@ -1,10 +1,10 @@
 # Advanced System Programming
 
-Course Description
+## Course Description
 
 Develop a deep understanding of operating system concepts and systems programming fundementals and gain hands-on experience in systems programming by using Pthreads as well as implementing Linux device drivers and testing/verifying systems code for deadlock and race-freedom
 
-Course outline
+## Course outline
 
 1. Introduction to operating systems concepts
 2. Inter-process communication mechanisms
@@ -23,6 +23,10 @@ Course outline
 15. USB Block drivers
 16. Analyzing device drivers for deadlocks and race conditions
 
-Author Information
+## Author Information
 
 Shreyas Gaadikere Sreedhara, Email - shreyasgaadikere@ufl.edu
+
+## License
+
+Licensed under the [MIT License](LICENSE.md)
