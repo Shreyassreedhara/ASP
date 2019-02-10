@@ -1,4 +1,6 @@
-# Assignment 3
+# MapReduce with concurrency using Semaphores
+
+## Steps to run the project
 
 You must be on a Linux system to run the following program. Follow the below steps to run the files
 
