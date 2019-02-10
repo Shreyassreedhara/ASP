@@ -2,6 +2,8 @@
 
 MapReduce is a software framework for easily writing applications which process vast amounts of data in-parallel on large clusters of commodity hardware in a reliable, fault-tolerant manner. A MapReduce job usually splits the input data-set into independent chunks which are processed by the map tasks in a completely parallel manner. The framework sorts the outputs of the maps, which are then input to the reduce tasks. Typically both the input and the output of the job are stored in a file-system.
 
+![alt text](mapreduce-animation.GIF)
+
 ## Problem Statement
 
 A [input file](inputfile.txt) consisting of tuples in the form (userID, action, topic) is given. The MapReduce application has to take this file as input and process it and the final output has to be written to the standard output. The final output will be tuples of form (userID, topic, total score) where the total score is the sum of the scores of tuples whose UserID and topic are same. Here we have worked with processes only. This problem can be solved using multithreading as well. 
@@ -22,8 +24,13 @@ _Make sure that the Reducer detects the end of file character while reading from
 
 Make sure you have all the three programs in the folder from which you will be running the commands. Additionally, you must also have the input file in the same folder. 
 
+```
+gcc -pthread -o mapper mapper.c
+gcc -pthread -o reducer reducer.c
+gcc -pthread -o combiner combiner.c
+```
+
 ## Author information
 
 Shreyas Gaadikere Sreedhara, Email: shreyasgaadikere@ufl.edu
-
 
