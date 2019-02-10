@@ -23,7 +23,7 @@ Develop a deep understanding of operating system concepts and systems programmin
 
 ## Contents
 
-1. [Producer consumer problem with no concurreny](Assignment1)
+1. [Mapper Reducer with no concurreny](Assignment1)
 2. [Producer consumer with concurreny using Mutex](Assignment2)
 3. [Producer consumer with concurreny using Semaphores](Assignment3)
 4. [Producer consumer with concurreny using mmap](Assignment4)
