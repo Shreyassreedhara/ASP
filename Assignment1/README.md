@@ -25,9 +25,10 @@ _Make sure that the Reducer detects the end of file character while reading from
 Make sure you have all the three programs in the folder from which you will be running the commands. Additionally, you must also have the input file in the same folder. 
 
 ```
-gcc -pthread -o mapper mapper.c
-gcc -pthread -o reducer reducer.c
-gcc -pthread -o combiner combiner.c
+- gcc -pthread -o mapper mapper.c
+- gcc -pthread -o reducer reducer.c
+- gcc -pthread -o combiner combiner.c
+- ./combiner <inputfile.txt
 ```
 
 ## Author information
