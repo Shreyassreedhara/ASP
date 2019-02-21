@@ -12,10 +12,8 @@ char topic[15];
 
 int main()
 {
-int i = 0;
-int j = 0;
+int i = 0, j = 0, count = 0;
 char c;
-int count = 0;
 char full[3000],token[15];
 
 char *strpointer;
