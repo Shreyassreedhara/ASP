@@ -18,7 +18,9 @@ The application consists of 3 programs.
 
 _Make sure that the Reducer detects the end of file character while reading from standard input._
 
-[Combiner program:](combiner.c) This is the top level file. It makes use of fork, exec, pipe and dup2 system calls to reuse the mapper and reducer programs. 
+[Combiner program:](combiner.c) This is the top level file. It makes use of fork, exec, pipe and dup2 system calls to reuse the mapper and reducer programs.
+
+Processes are used to design reducer applications in this assignment.
 
 ## Steps to run the code
 
