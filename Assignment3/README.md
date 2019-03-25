@@ -19,7 +19,8 @@ gcc -pthread -o combiner combiner.c
 ./combiner 10 8 <input.txt
 ```
 
-# Note:
+## Note:
+
 * input file provided has 8 unique userIDs
 * First and the second argument passed has to be greater than zero and a whole number
 * Sample output file has been included to show how the output should look like
