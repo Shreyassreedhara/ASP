@@ -23,11 +23,11 @@ Develop a deep understanding of operating system concepts and systems programmin
 
 ## Contents
 
-1. [Mapper Reducer with no concurreny](Assignment1)
-2. [Producer consumer with concurreny using Mutex](Assignment2)
-3. [Producer consumer with concurreny using Semaphores](Assignment3)
-4. [Producer consumer with concurreny using mmap](Assignment4)
-5. [Character device driver](Assignment5)
+1. [MapReduce application with no concurreny](Assignment1)
+2. [Producer and consumer with concurreny using Mutex](Assignment2)
+3. [Producer and consumer with concurreny using Semaphores](Assignment3)
+4. [Producer and consumer with concurreny using shared memory](Assignment4)
+5. [Simple Character Utility for Loading Localities](Assignment5)
 
 ## Author Information
 
