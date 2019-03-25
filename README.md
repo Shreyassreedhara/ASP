@@ -28,7 +28,7 @@ This folder contains the coding assignments and the project that I did in Advanc
 1. [MapReduce application with no concurreny](Assignment1)
 2. [Producer and consumer with concurreny using Mutex](Assignment2)
 3. [Producer and consumer with concurreny using Semaphores](Assignment3)
-4. [Producer and consumer with concurreny using shared memory](Assignment4)
+4. [Producer and consumer with concurreny using mmap system call](Assignment4)
 5. [Simple Character Utility for Loading Localities](Assignment5)
 
 ## Author Information
