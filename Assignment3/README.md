@@ -8,6 +8,8 @@ Implement the Map-Reduce programming model for data processing. MapReduce is a f
 
 Unlike the first assignment, the reducer work will be performed by multiple threads rather than multiple processes. The synchronization of these threads is achieved by using semaphores. The semaphore concept was invented by the Dutch computer scientist Edsger Dijkstra. A semaphore is a variable or a abstract data type used to control access to a common resource by a multiple processes in a concurrent system. 
 
+The main difference between mutex and semaphore is that a mutex is a locking mechanism used to synchronize access to a resource while a semaphore is a signalling mechanism. 
+
 ## Steps to run the project
 
 You must be on a Linux system to run the following program. Follow the below steps to run the files
