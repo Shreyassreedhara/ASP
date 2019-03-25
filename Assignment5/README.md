@@ -1,4 +1,4 @@
-# Character device Driver
+# Simple Character utility for loading localities _(SCULL)_ 
 
 ## Steps to run the project
 
