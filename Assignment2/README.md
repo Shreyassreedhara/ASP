@@ -6,6 +6,8 @@ In computing, the producer-consumer problem (also known as the bounded-buffer pr
 
 Implement the Map-Reduce programming model for data processing. MapReduce is a framework to write applications to process huge amounts of data, in parallel, on large clusters of commodity hardware in a reliable manner. The algorithm contains two important tasks, namely Map and Reduce. Map takes a set of data and converts it into another set of data, where individual elements are broken down into tuples (key/value pairs). Secondly, reduce task, which takes the output from a map as an input and combines those data tuples into a smaller set of tuples. Combiner program makes use of fork, exec, pipe and dup2 system calls and combines the Map-Reduce programs.
 
+Unlike the previous assignment, the reducer work will be performed by threads rather than processes.
+
 ## Steps to run the project
 
 You must be on a linux system to run the following commands. Follow the steps below to run the program
@@ -28,4 +30,4 @@ gcc -pthread -o combiner combiner.c
 
 ## Author information
 
-1. Shreyas Gaadikere Sreedhara, Email - shreyas100994@gmail.com
+1. Shreyas Gaadikere Sreedhara, Email - shreyasgaadikere@ufl.edu
