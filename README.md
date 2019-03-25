@@ -23,6 +23,8 @@ Develop a deep understanding of operating system concepts and systems programmin
 
 ## Contents
 
+This folder contains the coding assignments and the project that I did in Advanced System Programming course here in University of Florida.
+
 1. [MapReduce application with no concurreny](Assignment1)
 2. [Producer and consumer with concurreny using Mutex](Assignment2)
 3. [Producer and consumer with concurreny using Semaphores](Assignment3)
