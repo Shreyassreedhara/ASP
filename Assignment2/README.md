@@ -6,7 +6,7 @@ In computing, the producer-consumer problem (also known as the bounded-buffer pr
 
 Implement the Map-Reduce programming model for data processing. MapReduce is a framework to write applications to process huge amounts of data, in parallel, on large clusters of commodity hardware in a reliable manner. The algorithm contains two important tasks, namely Map and Reduce. Map takes a set of data and converts it into another set of data, where individual elements are broken down into tuples (key/value pairs). Secondly, reduce task, which takes the output from a map as an input and combines those data tuples into a smaller set of tuples. Combiner program makes use of fork, exec, pipe and dup2 system calls and combines the Map-Reduce programs.
 
-Unlike the previous assignment, the reducer work will be performed by threads rather than processes.
+Unlike the previous assignment, the reducer work will be performed by multiple threads rather than multiple processes. The synchronization of these threads is achieved by using mutexes. A mutual exclusion object is a program object that allows multiple program threads to share the same resource, such as file access, but not simultanously. When a program is started, a mutex is created with a unique name. After this stage, any thread that needs the resource must lock the mutex from other threads while it is using the resource.
 
 ## Steps to run the project
 
