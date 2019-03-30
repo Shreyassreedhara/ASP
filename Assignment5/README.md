@@ -1,4 +1,8 @@
-# Simple Character utility for loading localities (SCULL) device driver 
+# Simple Character utility for loading localities (SCULL) device driver
+
+A device driver is a software program that controls a particular type of hardware device that is attached to a computer. Device drivers can generally be categorized as kernel device drivers or user device drivers. Kernel drivers load with the OS as part of the system's memory. User mode's device drivers are triggered by the end-user.  
+
+## Problem statement
 
 The aim of this project is to write the character device driver in the following way:
 
@@ -59,3 +63,7 @@ rmmod char_driver.ko
 ```
 _Note:_
 * Userapp has to be executed with root previleges as the device files in /dev/ are created in the driver with root previleges
+
+## Author information
+
+* Shreyas Gaadikere Sreedhara, Email - shreyasgaadikere@ufl.edu
