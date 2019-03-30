@@ -1,4 +1,27 @@
-# Simple Character utility for loading localities _(SCULL)_ 
+# Simple Character utility for loading localities (SCULL) device driver 
+
+The aim of this project is to write the character device driver in the following way:
+
+1. Define a device structure and embed the structure _cdev_ in that structure
+    ```
+    struct asp_mycdev{
+        struct cdev dev;
+        char *ramdisk;
+        struct semaphore sem;
+        int devno;
+        // any other needed fields
+    };
+    ```
+
+2. Support a variable number of devices that can be set at load time (default is 3). The device nodes will be named /dev/mycdev0, /dev/mycdev1,..., /dev/mycdev(N-1), where N is the number of devices.
+
+3. Provide an entry function that would be accessed via lseek() function. This entry function should update the file position pointer based on the offset requested as long as it does not go out of bounds. In case it is going out of bounds then the buffer has to be expanded and the new region has to be filled with zeroes.
+
+4. Provide an entry function that would be accesed via ioctl() function. The user application should be let to clear the data stored in ramdisk. The driver function should also reset the file position pointer to 0.
+
+5. Each device can be opened concurrently and therefore can be accessed for read, write, lseek and ioctl concurrently. This has to happen in race free way.
+
+6. All the resources should be recycled/freed at the time of unloading the device driver module.
 
 ## Steps to run the project
 
