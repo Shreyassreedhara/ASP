@@ -30,15 +30,15 @@ The aim of this project is to write the character device driver in the following
 ## Frequently asked questions
 
 1. What is a major number and minor number?
-* The major number identifies the driver associated with the device. For example, /dev/null and /dev/zero are both managed by driver 1, whereas virtual consoles and serial terminals are managed by driver 7. The kernel uses the major number at _open_ time to dispatch execution to the appropriate driver. The minor number is only used by the specified driver. It helps the driver differentiate between several devices.
+* The major number identifies the driver associated with the device. For example, /dev/null and /dev/zero are both managed by driver 1, whereas virtual consoles and serial terminals are managed by driver 4. The kernel uses the major number at _open_ time to dispatch execution to the appropriate driver. The minor number is only used by the specified driver. It helps the driver differentiate between several devices.
 
-2. What are the differnce between the character and block device driver?
+2. What are the difference between the character and block device driver?
 * Character device drivers are used for devices that are slow, which manage a small amount of data, and access to data does not require frequent seek queries. Examples are keyboard, mouse, serial ports, sound card and joystick. Block device drivers are used for devices where data volume is large, data is organized on blocks, and search is common. Examples are hard drives, CD roms, ram disks etc.
 
-3. Can I use the normal strcpy or pointers to copy data in user space to kernel space?
+3. Can strcpy or pointers be used to copy data in user space to kernel space?
 * No, copy_to_user has to be used to copy data from kernel space to user space and copy_from_user has to be used to copy data from user space to kernel space.
 
-Refer [here](https://linux-kernel-labs.github.io/master/labs/device_drivers.html) for more information on how a character device driver is designed
+Refer [here](https://linux-kernel-labs.github.io/master/labs/device_drivers.html) for more information on how a character device driver is designed.
 
 ## Steps to run the project
 
