@@ -38,6 +38,15 @@ The aim of this project is to write the character device driver in the following
 3. Can strcpy or pointers be used to copy data in user space to kernel space?
 * No, copy_to_user has to be used to copy data from kernel space to user space and copy_from_user has to be used to copy data from user space to kernel space.
 
+4. What is IOCTL?
+* In computing, IOCTL is a system call for device-specific input/output operations and other operations which cannot be expressed by regular system calls. It takes a parameter specifying a request code. The effect of a call completely depends on the request code. Device independent request codes are sometimes used to give userspace access to kernel functions.
+
+5. What is ENOTTY?
+* Its an error code that the kernel delivers to the application that has made the IOCTL request to a device driver that doesn't recognize it.
+
+6. What is IOCTL magic number?
+* IOCTL magic number is a unique number or character that will differentiate our set of IOCTL calls. Sometimes the major number for the device is used here.
+
 Refer [here](https://linux-kernel-labs.github.io/master/labs/device_drivers.html) for more information on how a character device driver is designed.
 
 ## Steps to run the project
