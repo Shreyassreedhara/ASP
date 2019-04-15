@@ -36,7 +36,7 @@ The aim of this project is to write the character device driver in the following
 * Character device drivers are used for devices that are slow, which manage a small amount of data, and access to data does not require frequent seek queries. Examples are keyboard, mouse, serial ports, sound card and joystick. Block device drivers are used for devices where data volume is large, data is organized on blocks, and search is common. Examples are hard drives, CD roms, ram disks etc.
 
 3. Can memcpy be used to copy data in user space to kernel space?
-* Copy_to_user and Copy_from_user both check if the address in the user space is valid and also the process requesting this has permission to access this address. Thus memcpy should not be used to copy data from or to user space to or from kernel space. 
+* Copy_to_user and Copy_from_user both check if the address in the user space is valid and also that the process requesting this has permission to access this address. Thus memcpy should not be used to copy data from or to user space to or from kernel space. 
 
 4. What is IOCTL?
 * In computing, IOCTL is a system call for device-specific input/output operations and other operations which cannot be expressed by regular system calls. It takes a parameter specifying a request code. The effect of a call completely depends on the request code. Device independent request codes are sometimes used to give userspace access to kernel functions.
