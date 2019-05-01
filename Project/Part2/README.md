@@ -1,4 +1,9 @@
 # USB legacy Keyboard Driver
+
+A device driver is a software program that controls a particular type of hardware device that is attached to a computer.
+
+## Design
+
 The Linux USB Keyboard Driver is modified to change the way the CAPSLOCK LED is turned ON.
 
 Here the functionalities of the CapsLock and NumLock has been changed.
@@ -15,3 +20,6 @@ will turn ON when it is pressed the next time, and so on.
 
 In MODE2, the driver will leave the CAPSLOCK LED status in a way that will be compatible with MODE1. As a result, in MODE2, when the CAPSLOCK LED is OFF or ON you will see that the characters that are typed on the keyboard will be displayed in upper or lower case mode respectively.
 
+## Author information
+
+Shreyas Gaadikere Sreedhara, Email - shreyasgaadikere@ufl.edu
