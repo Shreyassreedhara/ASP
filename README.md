@@ -30,6 +30,8 @@ This folder contains the coding assignments and the project that I did in Advanc
 3. [Producer and consumer with concurreny using Semaphores](Assignment3)
 4. [Producer and consumer with concurreny using mmap system call](Assignment4)
 5. [Simple Character Utility for Loading Localities (SCULL) device driver](Assignment5)
+6. [Finding race conditions and deadlock scenarios](Project/Part1)
+7. [Modifying the working of the legacy USB keyboard driver](Project/Part2)
 
 ## Author Information
 
