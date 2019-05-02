@@ -10,7 +10,7 @@ Here the functionalities of the CapsLock and NumLock has been changed.
 In the original driver, the CAPSLOCK LED is turned ON when the CAPSLOCK key is pressed. Similarly, it is turned OFF when 
 it is pressed again. This behavior repeats with each CAPSLOCK key press.
 
-Two driver has 2 modes: ***MODE1*** and ***MODE2***.
+The driver will have 2 modes: ***MODE1*** and ***MODE2***.
 When the driver starts working, it is in MODE1, in which the CAPSLOCK will be handled as usual.
 MODE2 will be activated when NUMLOCK is pressed and CAPSLOCK is not pressed. At this point we will transition to MODE2 
 
