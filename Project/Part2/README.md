@@ -1,6 +1,6 @@
 # USB legacy Keyboard Driver
 
-A device driver is a software program that controls a particular type of hardware device that is attached to a computer.
+A device driver is a software program that controls a particular type of hardware device that is attached to a computer. Read [here](https://www.oreilly.com/library/view/linux-device-drivers/0596005903/ch13.html) for more information about the device drivers.
 
 ## Design
 
